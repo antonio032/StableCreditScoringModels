@@ -46,7 +46,7 @@ pip install -r requirements.txt
 Open any .ipynb notebook in the notebooks/ folder to explore the experiments and results.
 ```
 
-## Technologies Used
+## 🧠 Technologies Used
 ```
 Python 3.10+
 scikit-learn
@@ -57,7 +57,7 @@ XGBoost / LightGBM (if used)
 Jupyter Notebook
 ```
 
-## Results Summary
+## 📊 Results Summary
 The project benchmarks various classification models (e.g., Logistic Regression, Decision Trees, Gradient Boosting) based on both predictive performance and temporal stability. Stability is evaluated using metrics such as population stability index (PSI), AUC drift, and performance consistency across time-based splits.
 
 ## 📚 Citation
