@@ -15,6 +15,7 @@ This project investigates credit scoring model benchmarking, with a particular f
 Credit Scoring · Risk Modeling · Stable Models · Classification · Model Benchmarking
 
 ## 📁 Repository Structure
+```
 .
 ├── data/ # Preprocessed and sample data files
 ├── notebooks/ # Jupyter notebooks for EDA, training, and evaluation
@@ -23,6 +24,7 @@ Credit Scoring · Risk Modeling · Stable Models · Classification · Model Benc
 ├── results/ # Plots, evaluation metrics, and benchmarking results
 ├── requirements.txt # Python dependencies
 └── README.md # Project overview
+```
 
 ## 🚀 Getting Started
 
@@ -30,17 +32,22 @@ Credit Scoring · Risk Modeling · Stable Models · Classification · Model Benc
 ```bash
 git clone https://github.com/antonio032/StableCreditScoringModels.git
 cd StableCreditScoringModels
+```
 
-2.**Set up the environment**
+2. **Set up the environment**
+```
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
+```
 
-3.**Run the notebooks or scripts**
+3. **Run the notebooks or scripts**
+```
 Open any .ipynb notebook in the notebooks/ folder to explore the experiments and results.
-
+```
 
 ## Technologies Used
+```
 Python 3.10+
 scikit-learn
 pandas
@@ -48,6 +55,7 @@ NumPy
 Matplotlib / Seaborn
 XGBoost / LightGBM (if used)
 Jupyter Notebook
+```
 
 ## Results Summary
 The project benchmarks various classification models (e.g., Logistic Regression, Decision Trees, Gradient Boosting) based on both predictive performance and temporal stability. Stability is evaluated using metrics such as population stability index (PSI), AUC drift, and performance consistency across time-based splits.
@@ -60,6 +68,9 @@ Bal, Kang & Tsai. Enhancing Stability in Credit Scoring Models: A Benchmarking S
 
 ## 📫 Contact
 For any questions or suggestions:
+
 📧 beyzabbal0@gmail.com
+
 📧 yu-xuan.kang@outlook.com
+
 🔗 [LinkedIn Profile or Personal Website if applicable]
