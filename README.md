@@ -30,16 +30,23 @@ git clone https://github.com/antonio032/StableCreditScoringModels.git
 cd StableCreditScoringModels
 ```
 
-2. **Set up the environment**
+2. **Run the notebooks**
 ```
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
+You can find all notebooks in the notebooks/ folder of this repository.
+Open any .ipynb notebook in the notebooks/ folder to explore the experiments and results.
 ```
 
-3. **Run the notebooks or scripts**
+3. **Download the dataset from Kaggle**
 ```
-Open any .ipynb notebook in the notebooks/ folder to explore the experiments and results.
+Run the following command in a Colab code cell to download the competition dataset:
+!kaggle competitions download -c home-credit-credit-risk-model-stability
+Make sure your Kaggle API credentials (kaggle.json) are uploaded to the Colab session.
+```
+
+4. **Install required packages in Colab (if not pre-installed)**
+```
+Run the following in a Colab cell:
+!pip install -r requirements.txt
 ```
 
 ## 🧠 Technologies Used
