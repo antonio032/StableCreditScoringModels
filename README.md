@@ -17,7 +17,7 @@ Credit Scoring · Risk Modeling · Stable Models · Classification · Model Benc
 ## 📁 Repository Structure
 ```
 .
-├── notebooks/ # Jupyter notebooks for EDA, training, and evaluation
+├── notebooks/ # Jupyter notebooks for model training and evaluation
 ├── requirements.txt # Python dependencies
 └── README.md # Project overview
 ```
