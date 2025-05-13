@@ -17,11 +17,7 @@ Credit Scoring · Risk Modeling · Stable Models · Classification · Model Benc
 ## 📁 Repository Structure
 ```
 .
-├── data/ # Preprocessed and sample data files
 ├── notebooks/ # Jupyter notebooks for EDA, training, and evaluation
-├── src/ # Source code for data processing, model training, and evaluation
-├── models/ # Saved models (if applicable)
-├── results/ # Plots, evaluation metrics, and benchmarking results
 ├── requirements.txt # Python dependencies
 └── README.md # Project overview
 ```
@@ -48,13 +44,17 @@ Open any .ipynb notebook in the notebooks/ folder to explore the experiments and
 
 ## 🧠 Technologies Used
 ```
-Python 3.10+
-scikit-learn
-pandas
-NumPy
-Matplotlib / Seaborn
-XGBoost / LightGBM (if used)
-Jupyter Notebook
+The following libraries and frameworks were used throughout this project:
+
+- Python 3.10+
+- [Polars](https://pola-rs.github.io/polars/) – for fast DataFrame operations
+- [NumPy](https://numpy.org/) – numerical operations
+- [pandas](https://pandas.pydata.org/) – data manipulation and analysis
+- [LightGBM](https://lightgbm.readthedocs.io/) – gradient boosting for classification
+- [scikit-learn](https://scikit-learn.org/stable/) – preprocessing, pipelines, and model evaluation
+  - Logistic Regression, SGDClassifier
+  - ColumnTransformer, Pipelines
+  - Accuracy, ROC AUC, Confusion Matrix, Brier Score
 ```
 
 ## 📊 Results Summary
