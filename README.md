@@ -78,6 +78,6 @@ For any questions or suggestions:
 
 📧 beyzabbal0@gmail.com
 
-📧 yu-xuan.kang@outlook.com
+📧 yuxuan_kang@outlook.com
 
-🔗 [LinkedIn Profile or Personal Website if applicable]
+🔗 [LinkedIn Profile or Personal Website]
