@@ -1,12 +1,11 @@
 # Thesis Project: Stable Credit Scoring Models
-This repository contains the source code, scripts, and relevant resources used in the research and development of our master's thesis: **"Stable Credit Scoring Models"** at KU Leuven.
 
 This repository contains all code and resources developed for the master's thesis titled:  
 **"Enhancing Stability in Credit Scoring Models: A Benchmarking Study"**  
 Conducted as part of the Master of Science in Information Management, KU Leuven.
 
 ## 📄 Abstract
-The application of classification models to credit scoring has been a major area of interest for both academics and professionals. Developing accurate, transparent, and interpretable models is essential for evaluating the creditworthiness of loan applicants. While high accuracy in default risk prediction is critical for financial institutions, maintaining model stability over time is equally important to ensure consistent and fair decision-making.
+The application of classification models to credit scoring has been a major area of interest for both academics and professionals. Developing accurate and robust models is essential for evaluating the creditworthiness of loan applicants. While high accuracy in default risk prediction is critical for financial institutions, maintaining model stability over time is equally important to ensure consistent and fair decision-making.
 
 This project investigates credit scoring model benchmarking, with a particular focus on stability. It explores recent techniques and technological developments aimed at improving model stability without sacrificing predictive performance.
 
@@ -65,7 +64,7 @@ The following libraries and frameworks were used throughout this project:
 ```
 
 ## 📊 Results Summary
-The project benchmarks various classification models (e.g., Logistic Regression, Decision Trees, Gradient Boosting) based on both predictive performance and temporal stability. Stability is evaluated using metrics such as population stability index (PSI), AUC drift, and performance consistency across time-based splits.
+The project benchmarks various classification models (e.g., Logistic Regression, Random Forest, Gradient Boosting) based on both predictive performance and temporal stability. Stability is evaluated using a custom Gini-based stability metric.
 
 ## 📚 Citation
 If you use this repository or reference the research, please cite:
@@ -80,4 +79,3 @@ For any questions or suggestions:
 
 📧 yuxuan_kang@outlook.com
 
-🔗 [LinkedIn Profile or Personal Website]
