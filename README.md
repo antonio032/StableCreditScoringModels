@@ -75,7 +75,7 @@ Bal, Kang & Tsai. Enhancing Stability in Credit Scoring Models: A Benchmarking S
 ## 📫 Contact
 For any questions or suggestions:
 
-📧 beyzabbal0@gmail.com
+📧 beyzabbal02@gmail.com
 
 📧 yuxuan_kang@outlook.com
 
